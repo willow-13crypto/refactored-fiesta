@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>Christine's Website</title>
+
+<style>
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #c1bfd3;
+}
+li{
+float: left;
+}
+li a{
+display: block;
+color: rgb(12, 2, 2);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a: hover{
+background-color: #726204;
+}
+</style>
+</head>
+<body style=background-color:#b9aa55;">
+    <img src="/images/P.jpg" alt="P.jpg" height="400">
+    
+<ul>
+<li><a href="Home.html" target="iframe_main">Home</li></a>
+<li><a href="Profile.html" target="iframe_main">Profile</li></a>
+<li><a href="Gallery.html" target="iframe_main">Gallery</li></a>
+<li><a href="Portfolio.html" target="iframe_main">Portfolio</li></a>
+</ul>
+<iframe src="Home.html" name="iframe_main" height="100%" width="100%"></iframe>
+</body>
+</html>
+
+
+<html>
+<head> Christine Barrios
+<title> Profile
+</title>
+</head>
+<body>
+<h1>Profile</h1>
+<style>
+img{
+width: 300px;
+height: 200px
+border: 2px solid #669B49;
+border-radius: 13px;
+box-shadow: 4px 2px 7px 0px #00000042;
+}
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+p{
+text-align: center;
+font size: 20;
+}
+</style>
+<img src=images/me.jpg class="center">
+<h2 align="center">Personal Information</h2>
+<p><b>Name:</b>Christine Barrios</p><br></align>
+<p><b>Age:</b>17 years old</p><br>
+<p><b>Date of Birth:</b>August 5, 2007</p><br></align>
+<p><b>Address:</b>Mahal, Crispin Dela Cruz, Governor Generoso, Davao Oriental</p><br></align>
+<p><b>Contact:</b>09537405234</p><br></align>
+
+
+<html>
+<head>
+<title>Gallery
+</title>
+</head>
+<style>
+div{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;}
+div img{
+width: 350px;
+height: 200px
+border: 2px solid #7b241c;
+border-radius: 13px;
+box-shadow: 4px 7px 0px #00000042;
+cursor: pointer;
+margin: 10px;
+transition: 400ms;}
+</style>
+<body>
+<h1>Gallery</h1>
+<h2 align="center"></b>ACQUINTANCE PARTY</b></h2>
+<div>
+<img src="images/LUL(2).jpg">
+<img src="images/ACQ.jpg">
+<img src="images/UIN.jpg">
+</div>
+<h2 align="center">TEACHERS DAY</b></b></h2>
+<div>
+<img src="images/SC.jpg">
+<img src="images/.jpg">
+<img src="images/MT.jpg">
+</div>
+<h2 align="center"></b>MUSICAL THEATRE</b></h2>
+<div>
+<img src="images/SC.jpg">
+<img src="images/.jpg">
+<img src="images/MT.jpg">
+</div>
+</body>
+</html>
+
+
+
+
+
+<html>
+<head>
+<title>portfolio</title>
+</head>
+<body>
+<center><video width="700" height="700" controls autoplay loop>
+<source src="h.mp4" type="video/mp4"></video></center>
+<div>
+<center><img src="tt.jpg" style="width:50%">
+<img src="hh.jpg" style="width:50%">
+<img src="ee.jpg" style="width:50%">
+<img src="ff.jpg" style="width:50%">
+<img src="sw.jpg" style="width:50%">
+<img src="gg.jpg" style="width:50%">
+<img src="ds.jpg" style="width:50%">
+<img src="mn.jpg" style="width:50%"><center>
+</div>
+</body>
+</html>
